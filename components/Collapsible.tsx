@@ -12,6 +12,9 @@ export function Collapsible({ children, title }: PropsWithChildren & { title: st
 
   return (
     <ThemedView>
+
+
+      
       <TouchableOpacity
         style={styles.heading}
         onPress={() => setIsOpen((value) => !value)}
